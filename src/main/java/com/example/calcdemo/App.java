@@ -8,7 +8,7 @@ public class App {
 		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
 		Arithmetic arithmetic = null;
-		System.out.println("Calculator:\n1. Adddition\n2.Substraction\n3. Multiplication\n4. Division\nEnter a number corresponding to operation :");
+		System.out.println("Calculator:\n1. Adddition\n2. Substraction\n3. Multiplication\n4. Division\nEnter a number corresponding to operation :");
 		int option = scanner.nextInt();
 		double op1, op2, result;
 		System.out.println("Enter the operands : ");
